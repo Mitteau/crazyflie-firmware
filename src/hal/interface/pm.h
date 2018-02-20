@@ -30,6 +30,9 @@
 #include "adc.h"
 #include "syslink.h"
 
+#define SYSTEM_SHUTDOWN_TIMEOUT 2
+#define ACTIVATE_AUTO_SHUTDOWN
+
 #ifndef CRITICAL_LOW_VOLTAGE
   #define PM_BAT_CRITICAL_LOW_VOLTAGE   3.0f
 #else
