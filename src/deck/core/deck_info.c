@@ -60,7 +60,7 @@ static bool requiredLowInterferenceRadioMode = false;
 #define xstr(s) str(s)
 #define str(s) #s
 
-static char* deck_force = xstr(DECK_FORCE);
+static char* deck_force = xstr(bcGTGNSS);
 
 void deckInfoInit()
 {
